@@ -55,17 +55,16 @@ export function Header() {
                 Regiao: SP-Interior
               </p>
             </div>
-            </p>
-          </div>
-          <div className="group relative">
-            <div className="w-10 h-10 rounded-full bg-slate-100 border border-slate-200 flex items-center justify-center">
-              <User size={20} className="text-slate-400" />
+            <div className="group relative">
+              <div className="w-10 h-10 rounded-full bg-slate-100 border border-slate-200 flex items-center justify-center">
+                <User size={20} className="text-slate-400" />
+              </div>
             </div>
+            <button className="flex items-center gap-1.5 text-slate-400 hover:text-red-500 transition-colors">
+              <LogOut size={18} />
+              <span className="text-xs font-bold uppercase">Sair</span>
+            </button>
           </div>
-          <button className="flex items-center gap-1.5 text-slate-400 hover:text-red-500 transition-colors">
-            <LogOut size={18} />
-            <span className="text-xs font-bold uppercase">Sair</span>
-          </button>
         </div>
       </div>
     </header>
